@@ -21,6 +21,6 @@ RxSwift written in RxSwift and MVVM architecture.
 
 ### Screenshots
 
-<img alt="01_search_repository_screen_light" src="https://github.com/gkhnaydn/RxSwiftApp/blob/master/READMEIMAGES/image1.png?raw=true" width="290">&nbsp;
-<img alt="02_repository_details_screen_dark" src="https://github.com/gkhnaydn/RxSwiftApp/blob/master/READMEIMAGES/image2.png?raw=true" width="290">&nbsp;
-<img alt="03_settings_screen_dark" src="https://github.com/gkhnaydn/RxSwiftApp/blob/master/READMEIMAGES/image3.png?raw=true" width="290">&nbsp;
+<img src="https://github.com/gkhnaydn/RxSwiftApp/blob/master/READMEIMAGES/image1.png?raw=true" width="290">&nbsp;
+<img src="https://github.com/gkhnaydn/RxSwiftApp/blob/master/READMEIMAGES/image2.png?raw=true" width="290">&nbsp;
+<img src="https://github.com/gkhnaydn/RxSwiftApp/blob/master/READMEIMAGES/image3.png?raw=true" width="290">&nbsp;
