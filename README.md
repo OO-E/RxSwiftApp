@@ -1,6 +1,4 @@
-<p align="center">
 # RxSwiftApp
-</p>
 
 <p align="center">
 <img src="https://github.com/gkhnaydn/RxSwiftApp/blob/master/READMEIMAGES/appIcon.png" alt="RxSwiftApp logo" height="80" >
