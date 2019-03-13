@@ -57,12 +57,12 @@ final class SearchViewController: ViewController {
 //            .disposed(by: disposeBag)
         
         output.loading
-            .filter{ boolValue in
+            .filter{ [weak self] boolValue in
                 if(boolValue) {
-                    self.startAnimating()
+                    self!.startAnimating()
                 }
                 else {
-                    self.stopAnimating()
+                    self!.stopAnimating()
                 }
                 return boolValue
             }
@@ -71,11 +71,11 @@ final class SearchViewController: ViewController {
 
         
         output.results
-            .filter { results in
+            .filter { [weak self] results in
                 if(results.first?.error != nil) {
                     let alert = UIAlertController(title: "Oops Error :(", message: results.first?.error?.message, preferredStyle: .alert)
                     alert.addAction(UIAlertAction(title: "OK", style: .default) { _ in })
-                    self.present(alert, animated: true, completion: nil)
+                    self!.present(alert, animated: true, completion: nil)
                     return false
                 }
                 return true
